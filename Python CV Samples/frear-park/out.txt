@@ -1,0 +1,12 @@
+Comparing image1.JPG image2.JPG
+Analyze with fund :
+     Matches: 147  Good ones: 143
+     Confidence: 97.28 %
+     Pass.
+Analyze with homo :
+     Matches: 146  Good ones: 140
+     Confidence: 95.89 %
+     Pass.
+Ratio 0.9931972789115646
+Same scene.
+

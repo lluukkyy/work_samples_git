@@ -1,0 +1,36 @@
+Comparing image1.JPG image2.JPG
+Analyze with fund :
+     Matches: 190  Good ones: 176
+     Confidence: 92.63 %
+     Pass.
+Analyze with homo :
+     Matches: 48  Good ones: 48
+     Confidence: 100.00 %
+     Pass.
+Ratio 0.25263157894736843
+Not the same scene.
+
+Comparing image1.JPG image3.JPG
+Analyze with fund :
+     Matches: 22  Good ones: 20
+     Confidence: 90.91 %
+     Pass.
+Analyze with homo :
+     Matches: 10  Good ones: 9
+     Confidence: 90.00 %
+     Pass.
+Ratio 0.45454545454545453
+Not the same scene.
+
+Comparing image2.JPG image3.JPG
+Analyze with fund :
+     Matches: 208  Good ones: 196
+     Confidence: 94.23 %
+     Pass.
+Analyze with homo :
+     Matches: 91  Good ones: 91
+     Confidence: 100.00 %
+     Pass.
+Ratio 0.4375
+Not the same scene.
+

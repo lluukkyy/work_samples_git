@@ -1,0 +1,36 @@
+Comparing IMG2536.JPG IMG2537.JPG
+Analyze with fund :
+     Matches: 217  Good ones: 208
+     Confidence: 95.85 %
+     Pass.
+Analyze with homo :
+     Matches: 195  Good ones: 169
+     Confidence: 86.67 %
+     Pass.
+Ratio 0.8986175115207373
+Same scene.
+
+Comparing IMG2536.JPG IMG2538.JPG
+Analyze with fund :
+     Matches: 100  Good ones: 97
+     Confidence: 97.00 %
+     Pass.
+Analyze with homo :
+     Matches: 56  Good ones: 52
+     Confidence: 92.86 %
+     Pass.
+Ratio 0.56
+Not the same scene.
+
+Comparing IMG2537.JPG IMG2538.JPG
+Analyze with fund :
+     Matches: 84  Good ones: 79
+     Confidence: 94.05 %
+     Pass.
+Analyze with homo :
+     Matches: 55  Good ones: 53
+     Confidence: 96.36 %
+     Pass.
+Ratio 0.6547619047619048
+Not the same scene.
+

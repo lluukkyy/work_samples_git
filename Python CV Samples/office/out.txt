@@ -1,0 +1,36 @@
+Comparing IMG2533.JPG IMG2532.JPG
+Analyze with fund :
+     Matches: 39  Good ones: 38
+     Confidence: 97.44 %
+     Pass.
+Analyze with homo :
+     Matches: 26  Good ones: 26
+     Confidence: 100.00 %
+     Pass.
+Ratio 0.6666666666666666
+Not the same scene.
+
+Comparing IMG2533.JPG IMG2531.JPG
+Analyze with fund :
+     Matches: 96  Good ones: 94
+     Confidence: 97.92 %
+     Pass.
+Analyze with homo :
+     Matches: 88  Good ones: 82
+     Confidence: 93.18 %
+     Pass.
+Ratio 0.9166666666666666
+Same scene.
+
+Comparing IMG2532.JPG IMG2531.JPG
+Analyze with fund :
+     Matches: 619  Good ones: 608
+     Confidence: 98.22 %
+     Pass.
+Analyze with homo :
+     Matches: 526  Good ones: 510
+     Confidence: 96.96 %
+     Pass.
+Ratio 0.8497576736672051
+Same scene.
+

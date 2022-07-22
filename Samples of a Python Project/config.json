@@ -1,0 +1,154 @@
+{
+    "server_ip": "129.161.106.25",
+    "webm_path": "C:\\CISL\\mandarin-project_development\\Submodules\\node.js-backend\\PCA",
+    "python_command": "python", 
+    "starting_scene": "UpperStreet",
+    "agents": {
+        "teacher": {
+            "workspace_id": "005fbcdd-6a2d-4a9f-843c-0fedeccb5255",
+            "username": "apikey",
+            "password": "T2yS9HtAtEgs1DE6g0q_uSLRMYUE968z5FM-53-A3b07"
+        },
+        "lisa_on_street": {
+            "workspace_id": "15e0e9e1-982c-42d2-a3c8-92a059374484",
+            "username": "apikey",
+            "password": "wKVZQXwSrFaBOXpPRbyaxwrhzIHjv8Pcf9LoXNUESjFf"
+        },
+        "lisa_on_campus": {
+            "workspace_id": "a90f1130-b954-44ba-b9a7-c3da36be2218",
+            "username": "apikey",
+            "password": "T2yS9HtAtEgs1DE6g0q_uSLRMYUE968z5FM-53-A3b07"
+        },
+        "registrar": {
+            "workspace_id": "9d3f9381-74f7-4db4-b689-b8e7406c4614",
+            "username": "apikey",
+            "password": "T2yS9HtAtEgs1DE6g0q_uSLRMYUE968z5FM-53-A3b07"
+        },
+        "roommate": {
+            "workspace_id": "25e5488a-3323-44e8-b558-e35a035af557",
+            "username": "apikey",
+            "password": "T2yS9HtAtEgs1DE6g0q_uSLRMYUE968z5FM-53-A3b07"
+        },
+		"classmate": {
+            "workspace_id": "85d24dc9-190e-4c94-9dec-854af2d6c5ed",
+            "username": "apikey",
+            "password": "O7HiAAXozoOpwl5s9skZ7SoGKFr7TUDpxM8LsGXMujuQ"
+        },
+        "miss": {
+            "workspace_id": "72a78faa-62fb-4611-97c3-5012b56ed7d8",
+            "username": "apikey",
+            "password": "O7HiAAXozoOpwl5s9skZ7SoGKFr7TUDpxM8LsGXMujuQ"
+        },
+        "bossV1": {
+            "workspace_id": "469204d7-90e6-4f4f-a7c5-34bef30d07b7",
+            "username": "apikey",
+            "password": "O7HiAAXozoOpwl5s9skZ7SoGKFr7TUDpxM8LsGXMujuQ"
+        },
+        "boss": {
+            "workspace_id": "72a78faa-62fb-4611-97c3-5012b56ed7d8",
+            "username": "apikey",
+            "password": "O7HiAAXozoOpwl5s9skZ7SoGKFr7TUDpxM8LsGXMujuQ"
+        },
+        "auntie": {
+            "workspace_id": "72a78faa-62fb-4611-97c3-5012b56ed7d8",
+            "username": "apikey",
+            "password": "O7HiAAXozoOpwl5s9skZ7SoGKFr7TUDpxM8LsGXMujuQ"
+        },
+        "friend": {
+            "workspace_id": "72a78faa-62fb-4611-97c3-5012b56ed7d8",
+            "username": "apikey",
+            "password": "O7HiAAXozoOpwl5s9skZ7SoGKFr7TUDpxM8LsGXMujuQ"
+        },
+        "waiter": {
+            "workspace_id": "a2e0e89c-82cf-4dcb-afb5-2a62c3411056",
+            "username": "apikey",
+            "password": "wKVZQXwSrFaBOXpPRbyaxwrhzIHjv8Pcf9LoXNUESjFf"
+        },
+        "master": {
+            "workspace_id": "5e581e07-4c85-45de-91e6-967645031bb6",
+            "username": "apikey",
+            "password": "wKVZQXwSrFaBOXpPRbyaxwrhzIHjv8Pcf9LoXNUESjFf"
+        }
+    },
+    "agent_id_mapping": {
+        "0": {
+            "chineseName": ["老师"],
+            "pinyin": ["laoshi"],
+            "englishName": ["teacher"],
+            "dialogue_id": "teacher",
+            "gender": "female"
+        },
+        "1": {
+            "chineseName": ["丽莎","玛丽"],
+            "pinyin": ["lisha","mali"],
+            "englishName": ["lisa", "mary"],
+            "dialogue_id": "lisa",
+            "gender": "female"
+        },
+        "2": {
+            "chineseName": ["老板"],
+            "pinyin": ["laoban"],
+            "englishName": ["boss"],
+            "dialogue_id": "boss",
+            "gender": "male"
+        },
+        "3": {
+            "chineseName": ["小姐"],
+            "pinyin": ["xiaojie"],
+            "englishName": ["miss"],
+            "dialogue_id": "miss",
+            "gender": "female"
+        },
+        "4": {
+            "chineseName": ["朋友"],
+            "pinyin": ["pengyou"],
+            "englishName": ["friend"],
+            "dialogue_id": "friend",
+            "gender": "male"
+        },
+        "5": {
+            "chineseName": ["阿姨"],
+            "pinyin": ["ayi"],
+            "englishName": ["auntie"],
+            "dialogue_id": "auntie",
+            "gender": "female"
+        },
+        "6": {
+            "chineseName": ["同学"],
+            "pinyin": ["tongxue"],
+            "englishName": ["classmate"],
+            "dialogue_id": "classmate",
+            "gender": "male"
+        },
+        "7": {
+            "chineseName": ["师傅"],
+            "pinyin": ["shifu"],
+            "englishName": ["master"],
+            "dialogue_id": "master",
+            "gender": "male"
+        },
+        "8": {
+            "chineseName": ["小明","大卫"],
+            "pinyin": ["xiaoming","dawei"],
+            "englishName": ["roommate", "david"],
+            "dialogue_id": "roommate",
+            "gender": "male"
+        },
+        "9": {
+            "chineseName": ["主任"],
+            "pinyin": ["zhuren"],
+            "englishName": ["registrar"],
+            "dialogue_id": "registrar",
+            "gender": "female"
+        },
+        "11": {
+            "chineseName": ["大姐", "服务员"],
+            "pinyin": ["dajie", "fuwuyuan"],
+            "englishName": ["waiter"],
+            "dialogue_id": "waiter",
+            "gender": "female"
+        }
+    },
+    "difficulty_level": 2,
+    "transcript_correction": true
+}

@@ -1,0 +1,52 @@
+[EXECUTION]
+$ gcc q.cpp -o q.out
+$ ./q.out
+Gives out exact results as in problem statement.
+
+[PROBLEM REVIEW]
+This problem asks for a time and space efficient implementation of storing multiple queues.
+The difficult part is to place the whole structure in a static memory(char[2048]).
+
+[SOLUTION]
+My approach is to use a structure combining linked lists and circular queues.
+So a large part of the memory(char[2048]) is divided into 64 circular queues, 30 bytes each.
+Each queue is represented as a head pointer(index of a circular queue) and a tail pointer.
+Circular queues in between head and tail pointers are linked, for example:
+Queue 1 Head ==> [Circular Q 1] --> [Circular Q 4] ==> Queue 1 Tail
+Queue 2 Head ==> [Circular Q 2] --> [Circular Q 10] --> [Circular Q 7] ==> Queue 2 Tail
+
+[ANALYSIS]
+When initializing a queue, we gives it two bytes for head and tail pointer,
+then we assign an available circular queue to it. O(number of circular queues) = O(64)
+
+When enqueuing an element, we add it to the tail circular queue, O(1). If the tail circular queue
+is full, we linked another available circular queue to it, O(number of circular queues) = O(64). 
+
+When dequeuing an element, we take it from the head of the head circular queue, if the head 
+circular queue is empty, we mark it as available. O(1)
+
+When destroying a queue, we delete the corresponding head and tail pointers and mark all linked 
+circular queues in between as available. O(number of circular queues) = O(64)
+
+[CONCLUSTION]
+In each queue, circular queues make sure all memory space is filled up before the last circular queue. 
+The linked structure is used to provide efficient operations on queues.
+So just in a 2048-byte-memory, I met the demands of storing maximum 64 queues.
+I was able to find a balance between time and space complexity to
+hold up to 1728 bytes actual data.
+
+
+[DETAILED MEMORY DIVISION]
+0 - 127: Handles for head and tail pointers.
+128 - 157: Circular queue 1.
+158 - 187: Circular queue 2.
+.
+.
+.
+2018 - 2047: Circular queue 64.
+
+Within each circular queue(30 bytes long):
+0: Head pointer for the circular queue.
+1: Tail pointer for the circular queue.
+2: Pointer to the next circular queue.
+3-29: Actual data.
